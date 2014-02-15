@@ -3,9 +3,10 @@ Exports a 3D model/scene using [Assimp](http://github.com/assimp/assimp). Produc
 It is written assuming a compiler with support for C++11.
 
 Example usage:
-- git submodule init
-- git submodule update
-- use CMake to generate build files
-- compile
-- download [Crytek Sponza](http://graphics.cs.williams.edu/data/meshes.xml) .obj and .mtl
-- run "SceneExporter sponza.obj" to get scene.lua and meshdata.bin
+
+1. git submodule init
+2. git submodule update
+3. use CMake to generate build files
+4. compile
+5. download e.g. [Crytek Sponza](http://graphics.cs.williams.edu/data/meshes.xml) .obj and .mtl
+6. run "SceneExporter sponza.obj" to get scene.lua and meshdata.bin
